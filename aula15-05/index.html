@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConversorTemperatura</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+    <div class="container">
+      <div class="input-group">
+        <label for="fahrenheit">Temperatura em Fahrenheit:</label>
+        <input type="text" id="fahrenheit"  onkeydown="handleKeyDown(event)">
+      </div>
+      <button class="btn" onclick="converterTemperatura()">Converter para Celsius</button>
+      <p id="resultado"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
